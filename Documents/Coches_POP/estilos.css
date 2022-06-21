@@ -1,0 +1,194 @@
+@font-face {
+    font-family: 'Rustproof Body';
+    src: url("tipografias/rustproof\ body.ttf");
+    font-style: normal;
+    font-weight: normal;
+}
+
+h1 {
+    font-family: Rustproof Body;
+    text-align: center;
+    color: white;
+    font-size: 70px;
+    text-shadow: 20px 20px #ff0000;
+}
+
+h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    text-shadow: 106px;
+    opacity: 0.7;
+}
+
+h4 {
+    clear: left;
+    font-family: Rustproof Body;
+    color: red;
+    text-align: center;
+}
+
+@keyframes h4 {
+    from {
+        background-color: blue;
+    }
+    to {
+        background-color: white;
+    }
+}
+
+div {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    animation-name: h4;
+    animation-duration: 3s;
+}
+
+h3 {
+    float: left;
+    font-size: 50px;
+    position: absolute;
+    left: -0.3cm;
+    top: -150px
+}
+
+.texto {
+    float: left;
+    font-size: 50px;
+    position: absolute;
+    left: -0.3cm;
+}
+
+#lista1 {
+    list-style-type: square;
+    position: relative;
+    left: -0.9cm;
+}
+
+#lista2 {
+    color: white;
+    background-color: #9379c8;
+    list-style-type: none;
+}
+
+#cabecera {
+    font-size: 30px;
+}
+
+.principal {
+    position: relative;
+    left: 1cm;
+}
+
+.imagen {
+    border: solid 5px red;
+}
+
+.secundario {
+    background-color: rgb(229, 255, 0);
+    border: solid 5px red;
+    height: 8cm;
+    width: 14cm;
+    position: relative;
+    left: 34cm;
+    bottom: 290cm;
+    box-shadow: 15px 15px #08fa00;
+}
+
+.pie {
+    position: relative;
+    bottom: -12.8cm;
+    background-color: #9379c8;
+    color: black;
+}
+
+pre::first-letter {
+    text-transform: uppercase;
+}
+
+pre {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    position: relative;
+    left: -4cm;
+    background-color: aqua;
+    border-radius: 15px;
+    padding: 20px 10px;
+    box-shadow: 15px 15px #0400fa;
+    transition: 2s;
+}
+
+#Ttitle {
+    font-size: 30px;
+}
+
+caption {
+    background-color: rgb(255, 79, 79);
+}
+
+table {
+    border-collapse: collapse;
+    margin-left: 25%;
+    width: 50%;
+    border: solid 2px black;
+}
+
+th {
+    text-align: left;
+    padding: 16px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: rgb(255, 79, 79);
+    color: rgb(46, 0, 0);
+    font-size: 20px;
+    border: solid 3px black;
+}
+
+td {
+    background-color: rgb(209, 164, 252);
+    text-align: left;
+    padding: 8px;
+    font-size: 20px;
+    border: solid 2px black;
+}
+
+.año {
+    text-align: center;
+}
+
+.precio {
+    text-align: right;
+    color: rgb(16, 82, 0);
+}
+
+.clase {
+    text-align: center;
+}
+
+tr {
+    border: solid 2px black;
+}
+
+th:last-child {
+    background-color: crimson;
+}
+
+a:link {
+    color: yellow;
+}
+
+a:visited {
+    color: red;
+}
+
+a:hover {
+    background-color: aquamarine;
+}
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-image: url("/imagenes/fondo.png");
+    background-attachment: fixed;
+    background-size: 1920px 1080px;
+    /*background-size: 1536px 864px;*/
+    /*Ya que no vamos a dar boostrap, en background size indica los pixeles en los que se ve tu pantalla el fondo completo. en mi caso es el 80% de 1920 x 1080*/
+}

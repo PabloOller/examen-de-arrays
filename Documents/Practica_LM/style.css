@@ -1,0 +1,174 @@
+@font-face {
+    font-family: 'SF Fedora';
+    src: url("Tipografias/SF\ Fedora.ttf");
+    font-style: normal;
+    font-weight: normal;
+}
+
+a:visited {
+    color: rgb(251, 255, 0);
+}
+
+a:hover {
+    background-color: rgb(252, 5, 5);
+}
+
+#lista1 {
+    list-style-type: square;
+    position: relative;
+    left: -0.9cm;
+}
+
+figcaption {
+    color: #48fff6;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#lista2 {
+    color: white;
+    background-color: #ff9148;
+    border: dashed 14px rgb(255, 61, 61);
+    list-style-type: none;
+    height: 70px;
+    width: 150px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h1 {
+    font-family: SF Fedora;
+    text-align: center;
+    background: linear-gradient(#E20984, #ffffff);
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size: 70px;
+}
+
+h2 {
+    background-color: #E20984;
+    position: relative;
+    left: 15cm;
+    width: 700px;
+    height: 60px;
+    font-size: xx-large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h3 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 40px;
+}
+
+@keyframes h3 {
+    from {
+        background-color: blue;
+    }
+    to {
+        background-color: white;
+    }
+}
+
+h3 {
+    position: relative;
+    left: 12cm;
+    width: 1000px;
+    height: 100px;
+    background-color: red;
+    animation-name: h3;
+    animation-duration: 1.9s;
+}
+
+h4 {
+    font-family: SF Fedora;
+    font-size: xx-large;
+    color: #E20984;
+}
+
+.imagen {
+    position: relative;
+    left: 650px;
+    border: solid 5px greenyellow;
+    width: 300px;
+    height: 450px;
+}
+
+figcaption {
+    position: relative;
+    left: 650px;
+}
+
+pre {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.ImgStand {
+    width: 200px;
+    height: 200px;
+}
+
+pre::first-letter {
+    text-transform: uppercase;
+}
+
+.parrafo {
+    position: relative;
+    bottom: 400px;
+}
+
+body {
+    text-align: center;
+    background: rgb(231, 147, 223);
+    background: linear-gradient(90deg, rgba(231, 147, 223, 1) 0%, rgba(238, 174, 202, 1) 50%, rgba(231, 147, 223, 1) 100%);
+}
+
+table {
+    border-collapse: collapse;
+    margin-left: 25%;
+    width: 50%;
+    border: solid 2px black;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+th {
+    text-align: left;
+    padding: 16px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #ff9b49;
+    color: rgb(185, 8, 176);
+    font-size: 20px;
+    border: solid 3px rgb(250, 252, 164);
+}
+
+td {
+    background-color: rgb(250, 252, 164);
+    text-align: center;
+    padding: 8px;
+    font-size: 20px;
+    border: solid 2px #ff9b49;
+}
+
+table td:first-child {
+    text-align: left;
+}
+
+table td:last-child {
+    width: 150px;
+    height: 160px;
+}
+
+.secundario {
+    background-color: rgb(133, 205, 247);
+    border: ridge 10px rgb(255, 59, 59);
+    height: 8cm;
+    width: 12cm;
+    position: relative;
+    left: 1cm;
+    bottom: 270cm;
+    box-shadow: 13px 15px #630b0b;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.pie {
+    background-color: #505050;
+    color: whitesmoke;
+}
